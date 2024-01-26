@@ -1,6 +1,4 @@
-
-
-export interface IWheaterResponse {
+export interface IWeatherResponse {
     cloud_pct: number;
     temp: number;
     feels_like: number;

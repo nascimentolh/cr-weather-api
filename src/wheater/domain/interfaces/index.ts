@@ -1,2 +1,3 @@
-export * from "./wheater.response.interface";
-export * from "./wheater.service.interface";
+export * from "./weather.response.interface";
+export * from "./weather.service.interface";
+export * from "./weather-summary.interface";
