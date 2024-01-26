@@ -3,7 +3,7 @@ import { HttpException, HttpStatus, Injectable, InternalServerErrorException, Lo
 import { ConfigService } from "@nestjs/config";
 import { AxiosError } from "axios";
 import { firstValueFrom } from "rxjs";
-import { IWeatherResponse } from "../../../wheater/domain/interfaces";
+import { IWeatherResponse } from "../../domain/interfaces";
 
 @Injectable()
 export class WeatherHttpService {

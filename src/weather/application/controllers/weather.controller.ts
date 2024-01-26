@@ -1,7 +1,7 @@
 import { BadRequestException, Controller, Get, Query } from "@nestjs/common";
-import { IWeatherSummary } from "../../../wheater/domain/interfaces";
-import { WeatherService } from "../../../wheater/domain/services/weather.service";
-import { CitiesNamesDto } from "../../../wheater/domain/dtos/cities-names.dto";
+import { IWeatherSummary } from "../../domain/interfaces";
+import { WeatherService } from "../../domain/services/weather.service";
+import { CitiesNamesDto } from "../../domain/dtos/cities-names.dto";
 
 
 @Controller('weather')
